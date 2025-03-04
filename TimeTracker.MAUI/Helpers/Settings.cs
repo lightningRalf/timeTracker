@@ -7,5 +7,7 @@ namespace TimeTracker.MAUI.Models
         public int SyncIntervalMinutes { get; set; } = 5;
         public bool DarkModeEnabled { get; set; } = false;
         public bool AutoCategorizeEnabled { get; set; } = true;
+        public string OneDriveClientId { get; set; }
+        public string OneDriveRedirectUri { get; set; }
     }
 }
